@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css file/signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="ken"><a href="index.html">axel<span>divin</span></a></div>
+    <div class="form">
+        <h1>Sign up</h1>
+        <label>Username</label>
+            <input type="text" id="username" placeholder="Type here .... " name="name" required autofocus>
+        <label>Email</label>
+            <input type="text" id="email" placeholder="Type here ...." name="name" required >
+        <label>password</label>
+            <input type="password" id="password" placeholder="************" name="password" required>     
+        <button type="submit" onclick="addUser()">SignUp</button>
+        <div class="paragr"><p>Already have an account?<a href="login.html">Login</a></p></div>
+    </div> 
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
+    <script src="../js file/firebase.js"></script>
+    <script src="../js file/auth.js"></script>
+</body>
+</html>
