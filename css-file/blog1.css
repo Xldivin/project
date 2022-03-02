@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'ubuntu',sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+.image img{
+    width: 1348px;
+    height: 500px;
+}
+.head h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.text p{
+    margin-top: 100px;
+    font-family: 'ubuntu',sans-serif;
+}
+form{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'ubuntu',sans-serif;
+}
+textarea{
+    width: 400px;
+    font-family: 'ubuntu',sans-serif;
+}
+footer{
+    margin-top: 100px;
+    background-color: #333;
+}
+.para p {
+    text-align: center;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.rights p{
+    margin-left: 400px;
+    font-family: 'ubuntu',sans-serif;
+}
+.subscribe button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer-col ul{
+    list-style-type: none;
+    font-family: 'ubuntu',sans-serif;
+}
+.subscribe h2{
+    font-family: 'ubuntu',sans-serif;  
+}
+.subscribe label{
+    font-family: 'ubuntu',sans-serif;
+}

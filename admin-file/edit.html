@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css-file/edit-admin.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.21.0/ui/trumbowyg.min.css" rel="stylesheet">
+    <title>Edit new</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">Divin<span style="color: #FFD74A;">Axel</span></div>
+        <div class="nav-dash">DASHBOARD</div>
+        <img src="../assets/divin.png" alt="profile-pic" class="nav-pic">
+       
+    </nav>
+
+    <main class="container">
+        <section class="side">
+
+            <ul class="side-bar">
+                <li class="side-bar-item item-active"><a href="blogs.html" class="link">BLOGS</a></li>
+                <li class="side-bar-item"><a href="comments.html" class="link">COMMENTS</a></li>
+                <li class="side-bar-item"><a href="queries.html" class="link">QUERIES</a></li>
+                <li class="side-bar-item"><a href="users.html" class="link">USERS</a></li>
+            </ul>
+            <a href  class="logout">LogOut</a>
+        </section>
+        <section class="content">
+
+            <p class="title">EDIT NEW BLOG</p>
+
+            <div class="rows">
+               <form class="create">
+                   <input type="text" class="title" id="title" placeholder="Title">
+                   <textarea style="font-size: 2rem;" name="text" id="body" cols="30" rows="10">
+
+                   </textarea>
+                   <button type="submit" id="tap" class="post" onclick= "saveblog()">submit</button>
+               </form>
+            </div>
+        </section>
+    </main>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
+<script src="../js-file/firebase.js"></script>
+<script src="../js-file/admin.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.21.0/trumbowyg.min.js"></script>
+<script> $('#body').trumbowyg();</script>
+</body>
+</html>
