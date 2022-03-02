@@ -7,12 +7,12 @@
     storageBucket: "atlp-capstone-project-axel.appspot.com",
     messagingSenderId: "816829501156",
     appId: "1:816829501156:web:a8531aa2a473b8fa42a6f1"
-      };
+    };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     //make aut and firestore references
     // enable firebase auth service
     const authentication = firebase.auth();
     // enable firebase firestore service
-    const database  = firebase.firestore();
-  //   db.settings({timeStampInShots: true});
+    const db  = firebase.firestore();
+    //db.settings({timeStampInShots: true});
