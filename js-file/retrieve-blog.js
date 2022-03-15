@@ -1,8 +1,3 @@
-// db.collection("blog").get().then((snapshot) => {
-//     snapshot.docs.forEach(doc => {
-//         console.log(doc.data());
-//     });
-// });
 db.collection("blog").get().then((querySnapshot) => {
 
     
@@ -21,7 +16,7 @@ db.collection("blog").get().then((querySnapshot) => {
             <button class="delete">Delete</button>
         </div>
 
-                      `
+                   `
     });
 }).catch(function (err) {
     alert('Oops!! Error occured');

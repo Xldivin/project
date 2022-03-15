@@ -12,28 +12,21 @@
         <a href="./index.html">axel<span>divin</span></a>
     </nav>
     <div class="container">
-        <div class="head"><h2>TECHNOLOGY IN THE SOCIETY</h2></div>
+        <div class="head"><h2></h2></div>
         <div class="image"><img src="../assets/1.jpg" alt="tech"></div>
         <div class="para"><p>Posted on feb 20,2022 by shyaka axel divin</p></div>
         <div class="text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stands 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a, delectus saepe dolores quasi vel dolorum enim tempore inventore? Omnis dolores delectus voluptates rerum obcaecati culpa optio nemo dolorem veritatis. In the past week, we did not receive any new proposals from Apple with which they would comply with ACM’s requirements. That is why Apple will have to pay a fifth penalty payment. That means that the total amount of all penalty payments currently stan </p>
+            <p></p>
         </div> 
         <form>
-            <div>
+            <h3>Comments</h3>
             <label>Names</label>
-            <input type="text" placeholder="Type here .... " name="name" required autofocus>
+            <input type="text" id="name" placeholder="Type here .... " name="name" required autofocus>
             <label>Email</label>
-            <input type="text" placeholder="Type here ...." name="Email" required >
-            </div>
-            <textarea type="text" placeholder="Message"></textarea>
-        </form> 
+            <input type="text" id="email" placeholder="Type here ...." name="Email" required ><br>
+            <textarea type="text" id="comment" placeholder="Message"></textarea>
+        </form>
+            <button class="send" onclick="savecomment()">SEND</button>
         <footer class="footer">
             <div class="container1">
                 <div class="row1">
@@ -50,8 +43,8 @@
                     <div class="subscribe">
                         <h2>SUBSCRIBE</h2>
                         <label>Names</label>
-                        <input type="text" id="name" name="email">
-                        <button id="subs" onclick="savesubs()">SUBSCRIBE</button>
+                        <input type="text" name="email" class="sub">
+                        <button>SUBSCRIBE</button>
                     </div>
                 </div>
                 <div class="rights"><p>All rights reserved by Axel 2022</p></div>
@@ -62,6 +55,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
     <script src="../js-file/firebase.js"></script>
-    <script src="../js-file/form.js"></script>
+    <script src="../js-file/comment.js"></script>
+    <script src="../js-file/retrieve-blog1.js"></script>
 </body>
 </html>

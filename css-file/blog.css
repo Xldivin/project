@@ -126,6 +126,8 @@ marquee{
     .respo{
         display: flex;
         flex-direction: column;
+        position: relative;
+        bottom: 28px;
     }
     .nico img{
         width: 400px;
@@ -141,15 +143,32 @@ marquee{
     }
     .footer-col{
         position: relative;
-        right: 280px;
+        right: 100px;
     }
     .footer-col2{
         position: relative;
-        right: 649px;
+        right: -6px;
     }
     .rights p {
         position: relative;
         right: 550px;
+    }
+    marquee{
+        display: none;
+    }
+    .more a{
+        display: none;
+    }
+    .text{
+        position: relative;
+        bottom: 10px;
+    }
+    .footer{
+        width: 643px;
+    }
+    .rights p {
+        position: relative;
+        right: 50px;
     }
 }
 @media only screen and (max-width: 600px){
@@ -159,12 +178,35 @@ marquee{
         bottom: 50px;
     }
     .nico img{
-        width: 380px;
+        width: 264px;
     }
     .more a {
         display: none;
     }
     .nico img{
         position: static;
+    }
+    .footer-col2{
+        position: relative;
+        right: -20px;
+        top: -23px;
+    }
+    marquee{
+        display: none;
+    }
+    nav a{
+        margin-top: 10px;
+        margin-left: -37px;
+    }
+    .footer{
+        width: 300px;
+    }
+    .footer-col{
+        position: relative;
+        right: 25px;
+    }
+    .rights p {
+        position: relative;
+        right: 50px;
     }
 }

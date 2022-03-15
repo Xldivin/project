@@ -53,7 +53,7 @@ db.collection("messages").doc().set({
 //function to save subssss
 function savesubs() {
     const name = document.getElementById('name').value;
-// Add a new document in collection "cities"
+// Add a new document in collection "subscription"
 db.collection("subscription").doc().set({
     name
 })
@@ -64,4 +64,3 @@ db.collection("subscription").doc().set({
     console.error("Error writing document: ", error);
 });
 }
-
