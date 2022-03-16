@@ -60,7 +60,7 @@ ul li a{
 }
 .landing{
     background-image: url(../assets/water.png);
-    background-size: 1400px;
+    background-size: 1453px;
     background-repeat: no-repeat;
 }
 .text{
@@ -91,7 +91,7 @@ ul li a{
     margin-left: 50px;
     font-family: 'ubuntu',sans-serif;
 }
-.and:hover{
+.and a:hover{
     color: orange;
 }
 .menu-icon{
@@ -209,6 +209,7 @@ p span{
     top: 20px;
     font-size: 25px;
     font-family: 'ubuntu', sans-serif;
+    color: white;
 }
 .word h3 {
     margin-left: 40px;
@@ -316,6 +317,7 @@ button:hover
 }
 .rights p{
     text-align: center;
+    color: #fff;
 }
 /* media query */
 @media only screen and (max-width: 800px){
