@@ -83,7 +83,7 @@ marquee{
 }
 .footer{
     background-color: #24262b;
-    width: 1348px;
+    width: 1439px;
 }
 .row1{
     display: flex;
@@ -93,7 +93,7 @@ marquee{
 .footer-col ul li{
     list-style: none;
 }
-.footer-col h3{
+.footer-col  h3{
     color: #FFF;
     text-transform: capitalize;
     font-size: 18px;
