@@ -64,3 +64,7 @@ db.collection("subscription").doc().set({
     console.error("Error writing document: ", error);
 });
 }
+
+
+
+

@@ -87,8 +87,8 @@ h1{
 .ken a span{
    color: orange;
 }
-@media only screen and (max-width: 600px) {
-    form{
+@media only screen and (max-width: 650px) {
+    .form{
         width: 411px;
         padding: 10px; 
         position: relative;
@@ -106,14 +106,14 @@ h1{
     button{
         border-radius: 20px;
         position: relative;
-        right: 45px;
+        right: 77px;
     }
-    @media only screen and (max-width: 380px){
-        .form{
-            width: 350px;
-            padding: 6px;
-            position: absolute;
-            left: -446px;
-        }
+}
+@media only screen and (max-width: 380px){
+    .form{
+        width: 364px;
+        padding: 6px;
+        position: absolute;
+        left: -446px;
     }
 }

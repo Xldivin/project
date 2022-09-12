@@ -407,6 +407,7 @@ button:hover
     }
     .footer{
         text-align: center;
+        width: 600px;
     }
     .rights p{
         font-size: 15px;
